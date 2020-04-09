@@ -25,9 +25,9 @@ sourceBucketName = 'country-csv-loader-bucket'
 
 5. Create a DynamoDB table with the name that you specify in `tableName` and in the region that you specify in `region`.
 
-6. Set the source of your Lambda function to be the bucket that you specify in the `sourceBucketName`.
+6. Set the trigger source of your Lambda function to be the bucket that you specify in the `sourceBucketName`.
 
-7. Give Lambda access permissions on S3, DynamoDB and CloudWatch.
+7. Give your Lambda function an access permissions on S3, DynamoDB and CloudWatch.
 
 ## Structure of CSV file
 This is a sample CSV file for testing.
